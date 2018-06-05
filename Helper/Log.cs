@@ -13,7 +13,7 @@ namespace Helper
         /// <param name="model"></param>
         public static void Write(object model)
         {
-            var user = "test";
+            var user = "test2";
             using (var json = new StringWriter())
             {
                 JSON.Serialize(
